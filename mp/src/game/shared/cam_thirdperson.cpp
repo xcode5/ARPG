@@ -30,7 +30,7 @@ void CAM_ToFirstPerson(void);
 
 void ToggleThirdPerson( bool bValue )
 {
-	if ( bValue == true )
+	if ( bValue == false )
 	{
 		CAM_ToThirdPerson();
 	}
